@@ -8,14 +8,14 @@ Dans ces exercices on va réutiliser le code écrit dans le sujet précédent.
 Pour commencer on veut automatiser le lancement de tous les container créé précédemment.
 Pour ça on va utiliser docker-compose.
 
-1. Ecrire un ficher docker-compose.yml qui permet de lancer tous les serveurs d'un seul coup avec la commande ```docker-compose up```
+1. Ecrire un ficher docker-compose.yml qui permet de lancer tous les serveurs d'un seul coup avec la commande `docker-compose up`
 
 ## Exercice 2 : Mise à l'échelle
 
 Docker-compose permet de lancer plusieurs fois la même instance d'un container.
 
 1. Modifier le fichier docker-compose pour lancer 3 instances des serveurs "ping" et "pong".
-(Ils doivent continuer à communiquer entre eux).
+   (Ils doivent continuer à communiquer entre eux).
 
 ![](./img/fig5.png)
 

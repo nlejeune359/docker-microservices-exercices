@@ -22,14 +22,11 @@ Les deux serveurs connaissent l'adresse l'un de l'autre à l'avance.
 Même problème que l'exercice 1 mais les serveurs ne connaissent pas l'adresse l'un de l'autre, seulement la leur.
 
 1. On introduit donc un autre serveur qui connait l'adresse de tous les serveurs à l'avance. (on commit)
-(Les deux premier serveurs connaissent son adresse à l'avance)
+   (Les deux premier serveurs connaissent son adresse à l'avance)
 
-
-2. Le 3ème serveur ne connait plus les adresses des serveurs : il attend qu'ils le lui disent, les deux premiers serveurs doivent lui donner leur adresse au démarrage.
-
+2) Le 3ème serveur ne connait plus les adresses des serveurs : il attend qu'ils le lui disent, les deux premiers serveurs doivent lui donner leur adresse au démarrage.
 
 ![](./img/fig2.png)
-
 
 ## Exercice 3 : Docker
 
@@ -41,7 +38,7 @@ Le ping pong doit continuer à fonctionner.
 
 ![](./img/fig3.png)
 
-## Exercice 4 (bonus) : message broker
+## Exercice 4 : message broker
 
 On ne veut plus que nos serveurs s'envoient "pong" et "ping" directement (il faut un rebond).
 
@@ -51,8 +48,6 @@ Ce serveur vient avec son image docker bien entendu.
 
 ![](./img/fig4.png)
 
-
-
 ## Rendu
 
-A la fin de la journée, merci de commit et pusher tout votre travail (même incomplet). Et de m'envoyer le lien du repository à arthur.escriou@gmail.com.
+A la fin de la journée, merci de commit et pusher tout votre travail (même incomplet). Et de m'envoyer le lien du repository à arthur.escriou@gmail.com ou sur slack.
