@@ -7,7 +7,7 @@ COPY package*.json ./
 RUN npm install
 COPY . .
 
-EXPOSE 4567
+EXPOSE 8080
 
-CMD [ "node", "serv3.js" ]
+CMD [ "npm", "start" ]
 

@@ -9,5 +9,5 @@ COPY . .
 
 EXPOSE 4567
 
-CMD [ "node", "serv1.js" ]
+CMD [ "npm", "start" ]
 

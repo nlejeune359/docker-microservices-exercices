@@ -8,7 +8,7 @@ let addr = "";
 app.use(express.text());
 
 app.listen(port, () => {
-    console.log(`Listening at http://localhost:${port}`)
+    console.log(`Listening at http://172.16.8.68:${port}`)
 })
 
 app.post('/', (req, res) => {
@@ -19,10 +19,10 @@ app.post('/', (req, res) => {
 })
 
 const getAddr = () => {
-    fetch('http://localhost:8080')
+    fetch('http://172.16.8.68:8080')
     .then(res => res.json())
     .then(body => {
-        addr = body.filter(el => el != ('http://localhost:' + port))[0];
+        addr = body.filter(el => el != ('http://172.16.8.68:' + port))[0];
     })
     .catch(err => {
         setTimeout(() => {
@@ -35,7 +35,7 @@ const getAddr = () => {
 
 const connect = async () => {
 
-    await fetch(global.addr, {
+    await fetch(addr, {
         method: 'POST',
         body: 'pong',
         headers: { 'Content-Type': 'text/plain' },

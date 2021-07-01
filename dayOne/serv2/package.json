@@ -4,9 +4,7 @@
   "description": "",
   "main": "serv1.js",
   "scripts": {
-    "serv1": "nodemon serv1.js",
-    "serv2": "nodemon serv2.js",
-    "serv3": "nodemon serv3.js"
+    "start": "nodemon serv2.js"
   },
   "keywords": [],
   "author": "",
