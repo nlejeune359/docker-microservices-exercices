@@ -10,7 +10,7 @@ Ecrire deux serveurs devant communiquer l'un avec l'autre.
 
 - le premier doit envoyer une requête http "pong" vers le deuxième
 - à ce moment le second a une demie seconde pour lui envoyer une requête "ping"
-- à le récepetion de cette requête le premier a alors une demie seconde pour lui envoyer une requête "pong"
+- à la récepetion de cette requête le premier a alors une demie seconde pour lui envoyer une requête "pong"
 
 Les deux serveurs connaissent l'adresse l'un de l'autre à l'avance.
 
